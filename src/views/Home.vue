@@ -1,22 +1,7 @@
 <template>
-  <div class="home-container page-container">
-    <img class="vue-element-plus-logo" alt="Vue logo" src="../assets/logo.png" />
-    <div class="page-title">Vite2.x + Vue3.x + TypeScript + Element Plus</div>
-  </div>
+  <h1>这是主页</h1>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script lang="ts" setup></script>
 
-export default defineComponent({
-  name: 'Home'
-})
-</script>
-
-<style scoped lang="stylus">
-.home-container {
-  .vue-element-plus-logo {
-    width 50%
-  }
-}
-</style>
+<style scoped lang="sass"></style>
